@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(32, 65, 75);
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.navbar-inverse {
+  background-color: rgb(32, 65, 75);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-nav>li>a.active {
+	color: #fff;
+}
+
+.gmap_canvas strong {
+	color: black;
+}
+/*
+
+.navbar {
+	height: 100px;
+}
+
+.navbar-collapse {
+    position: relative;
+}
+
+.navbar-collapse .nav {
+    position: absolute; 
+    bottom: 0; 
+    right: 0;
+    margin-bottom: -10px;
+}
+*/
+
+@media (max-width: 767px) {
+	img.responsive-logo {
+		height: 45px;
+	}
+	body {
+		padding-top: 100px;
+	}
+	.cv-entry {
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	img.responsive-logo {
+		height: 36px;
+	}
+	body {
+		padding-top: 100px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	img.responsive-logo {
+		height: 80px;
+	}
+	.navbar-nav {
+		margin-top: 30px;
+	}
+	body {
+		padding-top: 140px;
+	}
+}
+
+@media (min-width: 1200px) {
+	img.responsive-logo {
+		height: 100px;
+	}
+	.navbar-nav {
+		margin-top: 50px;
+	}
+	body {
+		padding-top: 160px;
+	}
+}
+
+.navbar-inverse .navbar-nav>li>a.menu-icon {
+	color: white;
+	padding: 12px 6px;
+	font-size: 12px;
+}
+
+img.vennoot {
+	height: 200px;
+}
+
