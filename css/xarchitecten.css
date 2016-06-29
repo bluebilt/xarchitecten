@@ -96,3 +96,8 @@ img.vennoot {
 	height: 200px;
 }
 
+.bottom-align-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
